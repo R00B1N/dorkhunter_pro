@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+.env/
+
+# Databases
+data/*.db
+data/*.db-wal
+data/*.db-shm
+
+# Scan artifacts (never commit real scan data / third-party findings)
+reports/*.json
+reports/*.md
+reports/*.html
+reports/*.txt
+reports/sqlmap/
+
+# Keep placeholders
+!reports/.gitkeep
+!data/.gitkeep
+
+.DS_Store
